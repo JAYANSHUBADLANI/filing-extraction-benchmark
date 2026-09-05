@@ -1,0 +1,32 @@
+{
+  "form_type": "10-K",
+  "report_year_from": 2019,
+  "report_year_to": 2024,
+  "selection_rule": "Large capitalisation US filers spanning ten industry groups, chosen so that statement layout, label vocabulary and print scale vary across the sample rather than repeating one filing agent's house style. Financial sector filers are excluded on purpose: banks and insurers file a structurally different income statement with no gross profit and no conventional operating income line, so including them would confound a field shape effect with a sector effect. The list is fixed in this file before any extraction was run and was not revised after seeing results.",
+  "companies": [
+    {"cik": 320193,  "ticker": "AAPL", "name": "Apple Inc.", "industry": "Technology hardware"},
+    {"cik": 789019,  "ticker": "MSFT", "name": "Microsoft Corporation", "industry": "Software"},
+    {"cik": 1652044, "ticker": "GOOGL", "name": "Alphabet Inc.", "industry": "Internet services"},
+    {"cik": 1018724, "ticker": "AMZN", "name": "Amazon.com, Inc.", "industry": "Retail and cloud"},
+    {"cik": 1326801, "ticker": "META", "name": "Meta Platforms, Inc.", "industry": "Internet services"},
+    {"cik": 1045810, "ticker": "NVDA", "name": "NVIDIA Corporation", "industry": "Semiconductors"},
+    {"cik": 1318605, "ticker": "TSLA", "name": "Tesla, Inc.", "industry": "Automotive"},
+    {"cik": 50863,   "ticker": "INTC", "name": "Intel Corporation", "industry": "Semiconductors"},
+    {"cik": 858877,  "ticker": "CSCO", "name": "Cisco Systems, Inc.", "industry": "Networking hardware"},
+    {"cik": 1341439, "ticker": "ORCL", "name": "Oracle Corporation", "industry": "Software"},
+    {"cik": 200406,  "ticker": "JNJ", "name": "Johnson & Johnson", "industry": "Pharmaceuticals"},
+    {"cik": 78003,   "ticker": "PFE", "name": "Pfizer Inc.", "industry": "Pharmaceuticals"},
+    {"cik": 310158,  "ticker": "MRK", "name": "Merck & Co., Inc.", "industry": "Pharmaceuticals"},
+    {"cik": 80424,   "ticker": "PG", "name": "The Procter & Gamble Company", "industry": "Consumer products"},
+    {"cik": 21344,   "ticker": "KO", "name": "The Coca-Cola Company", "industry": "Beverages"},
+    {"cik": 77476,   "ticker": "PEP", "name": "PepsiCo, Inc.", "industry": "Beverages"},
+    {"cik": 104169,  "ticker": "WMT", "name": "Walmart Inc.", "industry": "Retail"},
+    {"cik": 909832,  "ticker": "COST", "name": "Costco Wholesale Corporation", "industry": "Retail"},
+    {"cik": 354950,  "ticker": "HD", "name": "The Home Depot, Inc.", "industry": "Retail"},
+    {"cik": 18230,   "ticker": "CAT", "name": "Caterpillar Inc.", "industry": "Industrial machinery"},
+    {"cik": 12927,   "ticker": "BA", "name": "The Boeing Company", "industry": "Aerospace"},
+    {"cik": 66740,   "ticker": "MMM", "name": "3M Company", "industry": "Industrial conglomerate"},
+    {"cik": 732712,  "ticker": "VZ", "name": "Verizon Communications Inc.", "industry": "Telecommunications"},
+    {"cik": 1744489, "ticker": "DIS", "name": "The Walt Disney Company", "industry": "Media and entertainment"}
+  ]
+}

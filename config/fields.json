@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "form_type": "10-K",
+  "note": "Ordered concept lists. For a given filing the first concept present with a fact whose period matches the filing's own reporting period wins. The order is a preference order, not a fallback chain of last resort, and the match rate of each alternative is reported in results/concept_match_counts.csv. Row patterns are ordered by priority and the first that matches a printed label wins. Exclusion patterns veto a label outright, and section patterns are consulted only when no row label matched at all.",
+  "fields": {
+    "revenue": {
+      "label": "Total revenue",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "scaled": true,
+      "negative_ok": false,
+      "concepts": [
+        "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "Revenues",
+        "RevenueFromContractWithCustomerIncludingAssessedTax",
+        "SalesRevenueNet",
+        "SalesRevenueGoodsNet"
+      ],
+      "row_patterns": [
+        "^total net sales$",
+        "^total revenues?$",
+        "^total net revenues?$",
+        "^net revenues?$",
+        "^net sales$",
+        "^net operating revenues$",
+        "^total revenues? and other income$",
+        "^revenues?$",
+        "^total sales$",
+        "^operating revenues$"
+      ],
+      "exclude_patterns": [
+        ".*cost of.*",
+        ".*per (common )?share.*"
+      ]
+    },
+    "operating_income": {
+      "label": "Operating income",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "scaled": true,
+      "concepts": [
+        "OperatingIncomeLoss"
+      ],
+      "row_patterns": [
+        "^operating income$",
+        "^operating income \\(loss\\)$",
+        "^income from operations$",
+        "^operating profit$",
+        "^total operating income$",
+        "^operating income \\(expense\\)$",
+        "^earnings from operations$",
+        "^operating earnings$",
+        "^loss from operations$"
+      ],
+      "exclude_patterns": [
+        ".*per (common )?share.*",
+        ".*segment.*"
+      ]
+    },
+    "net_income": {
+      "label": "Net income",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "scaled": true,
+      "concepts": [
+        "NetIncomeLoss",
+        "ProfitLoss"
+      ],
+      "row_patterns": [
+        "^net income \\(loss\\) attributable to (?!.*noncontrolling).*$",
+        "^net income attributable to (?!.*noncontrolling).*$",
+        "^net earnings \\(loss\\) attributable to (?!.*noncontrolling).*$",
+        "^net earnings attributable to (?!.*noncontrolling).*$",
+        "^net income$",
+        "^net earnings$",
+        "^net income \\(loss\\)$",
+        "^net earnings \\(loss\\)$",
+        "^net loss$",
+        "^consolidated net income$"
+      ],
+      "exclude_patterns": [
+        "^less",
+        ".*noncontrolling.*",
+        ".*per (common )?share.*",
+        ".*comprehensive.*"
+      ],
+      "section_exclude_patterns": [
+        ".*per (common )?share.*",
+        ".*earnings per.*"
+      ]
+    },
+    "eps_diluted": {
+      "label": "Diluted earnings per share",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD/shares",
+      "scaled": false,
+      "concepts": [
+        "EarningsPerShareDiluted",
+        "IncomeLossFromContinuingOperationsPerDilutedShare"
+      ],
+      "row_patterns": [
+        "^diluted$",
+        "^diluted \\(in .*\\)$",
+        "^diluted net income per share$",
+        "^diluted net income \\(loss\\) per share$",
+        "^diluted earnings per share$",
+        "^diluted earnings per common share$",
+        "^diluted net income per share attributable to .*$",
+        "^diluted earnings per share attributable to .*$",
+        "^earnings \\(loss\\) per share diluted$",
+        "^earnings per share diluted$",
+        "^earnings \\(loss\\) per common share diluted$",
+        "^earnings per common share diluted$",
+        "^net income per share diluted$",
+        "^net income \\(loss\\) per share diluted$",
+        "^earnings per share, diluted$",
+        "^diluted .*per share$",
+        "^diluted net earnings per (common )?share$",
+        "^diluted net earnings \\(loss\\) per (common )?share$",
+        "^earnings.*per (common )?share.*diluted$",
+        "^net (income|earnings).*per (common )?share.*diluted$"
+      ],
+      "exclude_patterns": [
+        ".*continuing operations.*",
+        ".*discontinued.*",
+        ".*weighted.average.*",
+        "^average shares.*",
+        ".*shares outstanding.*",
+        ".*effect of dilutive.*",
+        "^basic.*"
+      ],
+      "section_patterns": [
+        "^earnings per common share.{0,4}diluted$",
+        "^earnings per share.{0,4}diluted$",
+        "^diluted earnings per (common )?share$",
+        "^diluted net income per (common )?share$",
+        "^net income per (common )?share.{0,4}diluted$"
+      ],
+      "section_exclude_patterns": [
+        ".*basic.*",
+        ".*continuing operations.*",
+        ".*discontinued.*"
+      ]
+    },
+    "total_assets": {
+      "label": "Total assets",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "scaled": true,
+      "negative_ok": false,
+      "concepts": [
+        "Assets"
+      ],
+      "row_patterns": [
+        "^total assets$"
+      ],
+      "exclude_patterns": [
+        ".*current.*",
+        ".*noncurrent.*"
+      ]
+    },
+    "total_liabilities": {
+      "label": "Total liabilities",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "scaled": true,
+      "negative_ok": false,
+      "concepts": [
+        "Liabilities"
+      ],
+      "row_patterns": [
+        "^total liabilities$"
+      ],
+      "exclude_patterns": [
+        ".*current.*",
+        ".*and equity.*",
+        ".*and.*holders.? equity.*",
+        ".*noncurrent.*"
+      ]
+    },
+    "stockholders_equity": {
+      "label": "Total stockholders equity",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "scaled": true,
+      "concepts": [
+        "StockholdersEquity",
+        "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"
+      ],
+      "row_patterns": [
+        "^total .*(share|stock)holders.? equity$",
+        "^total .*shareowners.? equity$",
+        "^total .*(share|stock)holders.? equity \\\\(deficit\\\\)$",
+        "^total .*(share|stock)holders.? \\\\(deficit\\\\) equity$",
+        "^total (share|stock)holders.? equity \\\\(deficit\\\\)$",
+        "^total (share|stock)holders.? \\\\(deficit\\\\) equity$",
+        "^equity attributable to .*$",
+        "^total (share|stock)holders.? equity$",
+        "^total shareowners.? equity$",
+        "^total (share|stock)holders.? equity \\(deficit\\)$",
+        "^total (share|stock)holders.? \\(deficit\\) equity$",
+        "^total equity$"
+      ],
+      "exclude_patterns": [
+        ".*liabilit.*",
+        ".*noncontrolling.*",
+        ".*redeemable.*"
+      ]
+    },
+    "cash_and_equivalents": {
+      "label": "Cash and cash equivalents",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "scaled": true,
+      "negative_ok": false,
+      "concepts": [
+        "CashAndCashEquivalentsAtCarryingValue",
+        "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+      ],
+      "row_patterns": [
+        "^cash and cash equivalents$",
+        "^cash and cash equivalents, .*$",
+        "^cash and equivalents$",
+        "^cash and cash equivalents \\(.*\\)$",
+        "^cash$"
+      ],
+      "exclude_patterns": [
+        ".*restricted.*",
+        ".*end of.*",
+        ".*beginning of.*",
+        ".*marketable.*"
+      ]
+    },
+    "operating_cash_flow": {
+      "label": "Net cash from operating activities",
+      "statement": "cash_flow",
+      "period_type": "duration",
+      "unit": "USD",
+      "scaled": true,
+      "concepts": [
+        "NetCashProvidedByUsedInOperatingActivities",
+        "NetCashProvidedByUsedInOperatingActivitiesContinuingOperations"
+      ],
+      "row_patterns": [
+        "^net cash provided by operating activities$",
+        "^net cash provided by \\(used in\\) operating activities$",
+        "^net cash provided by \\(used for\\) operating activities$",
+        "^cash generated by operating activities$",
+        "^net cash flows from operating activities$",
+        "^net cash from operating activities$",
+        "^cash provided by operating activities$",
+        "^net cash provided by operations$",
+        "^total cash provided by operating activities$",
+        "^net cash used in operating activities$",
+        "^cash flows from operating activities$",
+        "^total operating activities$",
+        "^net cash flows provided by operating activities$",
+        "^cash flows from operations$",
+        "^net cash generated by operating activities$"
+      ],
+      "exclude_patterns": [
+        ".*investing.*",
+        ".*financing.*"
+      ]
+    }
+  }
+}

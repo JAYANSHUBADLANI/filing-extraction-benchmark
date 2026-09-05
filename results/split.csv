@@ -1,0 +1,25 @@
+cik,ticker,company,industry,split
+66740,MMM,3M Company,Industrial conglomerate,dev
+320193,AAPL,Apple Inc.,Technology hardware,dev
+1326801,META,"Meta Platforms, Inc.",Internet services,dev
+1341439,ORCL,Oracle Corporation,Software,dev
+77476,PEP,"PepsiCo, Inc.",Beverages,dev
+78003,PFE,Pfizer Inc.,Pharmaceuticals,dev
+1318605,TSLA,"Tesla, Inc.",Automotive,dev
+21344,KO,The Coca-Cola Company,Beverages,dev
+354950,HD,"The Home Depot, Inc.",Retail,dev
+80424,PG,The Procter & Gamble Company,Consumer products,dev
+1652044,GOOGL,Alphabet Inc.,Internet services,test
+1018724,AMZN,"Amazon.com, Inc.",Retail and cloud,test
+18230,CAT,Caterpillar Inc.,Industrial machinery,test
+858877,CSCO,"Cisco Systems, Inc.",Networking hardware,test
+909832,COST,Costco Wholesale Corporation,Retail,test
+50863,INTC,Intel Corporation,Semiconductors,test
+200406,JNJ,Johnson & Johnson,Pharmaceuticals,test
+310158,MRK,"Merck & Co., Inc.",Pharmaceuticals,test
+789019,MSFT,Microsoft Corporation,Software,test
+1045810,NVDA,NVIDIA Corporation,Semiconductors,test
+12927,BA,The Boeing Company,Aerospace,test
+1744489,DIS,The Walt Disney Company,Media and entertainment,test
+732712,VZ,Verizon Communications Inc.,Telecommunications,test
+104169,WMT,Walmart Inc.,Retail,test

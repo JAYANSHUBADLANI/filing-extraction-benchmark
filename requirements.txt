@@ -1,0 +1,7 @@
+requests>=2.31
+pandas>=2.0
+lxml>=5.0
+beautifulsoup4>=4.12
+numpy>=1.26
+matplotlib>=3.8
+pytest>=7.4

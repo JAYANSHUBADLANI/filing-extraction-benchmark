@@ -1,0 +1,1014 @@
+{
+ "doc_id": "0000077476_0000077476-25-000007",
+ "ix_facts_removed": 2538,
+ "raw_chars": 3910970,
+ "stripped_chars": 3108855,
+ "text": "pep-20241228\nTable of \nContents\n UNITED STATES SECURITIES AND EXCHANGE COMMISSION\nWASHINGTON, D.C. 20549\nFORM 10-K \n(Mark One)\n\u2612\nANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the fiscal year ended December 28, 2024\nOR\n\u2610\nTRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the transition period from \n to \nCommission file number\n1-1183\nPepsiCo, Inc. \n(Exact Name of Registrant as Specified in its Charter) \nNorth Carolina\n13-1584302\n(State or Other Jurisdiction of Incorporation or Organization)\n(I.R.S. Employer Identification No.)\n700 Anderson Hill Road, Purchase, New York 10577 \n(Address of principal executive offices and Zip Code)\n(914) 253-2000 \nRegistrant\u2019s telephone number, including area code\nSecurities registered pursuant to Section 12(b) of the Securities Exchange Act of 1934: \nTitle of each class\nTrading Symbols\nName of each exchange on which registered\nCommon Stock, par value 1-2/3 cents per share\nPEP\nThe Nasdaq Stock Market LLC\n2.625% Senior Notes Due 2026\nPEP26\nThe Nasdaq Stock Market LLC\n0.750% Senior Notes Due 2027\nPEP27\nThe Nasdaq Stock Market LLC\n0.875% Senior Notes Due 2028\nPEP28\nThe Nasdaq Stock Market LLC\n0.500% Senior Notes Due 2028\nPEP28A\nThe Nasdaq Stock Market LLC\n3.200% Senior Notes Due 2029\nPEP29\nThe Nasdaq Stock Market LLC\n1.125% Senior Notes Due 2031\nPEP31\nThe Nasdaq Stock Market LLC\n0.400% Senior Notes Due 2032\nPEP32\nThe Nasdaq Stock Market LLC\n0.750% Senior Notes Due 2033\nPEP33\nThe Nasdaq Stock Market LLC\n3.550% Senior Notes Due 2034\nPEP34\nThe Nasdaq Stock Market LLC\n0.875% Senior Notes Due 2039\nPEP39\nThe Nasdaq Stock Market LLC\n1.050% Senior Notes Due 2050\nPEP50\nThe Nasdaq Stock Market LLC\nSecurities registered pursuant to Section 12(g) of the Securities Exchange Act of 1934: None\nIndicate by check mark if the registrant is a well-known seasoned issuer, as defined in Rule 405 of the Securities Act. Yes \n\u2612\n No \n\u00a8\nIndicate by check mark if the registrant is not required to file reports pursuant to Section 13 or 15(d) of the Act. Yes \n\u00a8\n No \n\u2612\nIndicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. Yes \n\u2612\n No \n\u00a8\nIndicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (\u00a7 232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files). Yes \n\u2612\n No \n\u00a8\nIndicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of \u201clarge accelerated filer,\u201d \u201caccelerated filer,\u201d \u201csmaller reporting company,\u201d and \u201cemerging growth company\u201d in Rule 12b-2 of the Exchange Act. \nLarge accelerated filer\n\u2612\nAccelerated filer\n\u2610\nNon-accelerated filer\n\u2610\nSmaller reporting company\n\u2610\nEmerging growth company\n\u2610\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. \n\u00a8\nIndicate by check mark whether the registrant has filed a report on and attestation to its management\u2019s assessment of the effectiveness of its internal control over financial reporting under Section 404(b) of the Sarbanes-Oxley Act (15 U.S.C. 7262(b)) by the registered public accounting firm that prepared or issued its audit report. \n\u2612\nIf securities are registered pursuant to Section 12(b) of the Act, indicate by check mark whether the financial statements of the registrant included in the filing refl",
+ "tables": [
+  {
+   "index": 27,
+   "rows": [
+    [
+     "",
+     "2024",
+     "",
+     "2023",
+     "",
+     "2022"
+    ],
+    [
+     "Net Revenue",
+     "$",
+     "91,854",
+     "",
+     "",
+     "$",
+     "91,471",
+     "",
+     "",
+     "$",
+     "86,392",
+     ""
+    ],
+    [
+     "Cost of sales",
+     "41,744",
+     "",
+     "",
+     "41,881",
+     "",
+     "",
+     "40,576",
+     ""
+    ],
+    [
+     "Gross profit",
+     "50,110",
+     "",
+     "",
+     "49,590",
+     "",
+     "",
+     "45,816",
+     ""
+    ],
+    [
+     "Selling, general and administrative expenses",
+     "37,190",
+     "",
+     "",
+     "36,677",
+     "",
+     "",
+     "34,459",
+     ""
+    ],
+    [
+     "Gain associated with the Juice Transaction (see Note 13)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "(3,321)",
+     ""
+    ],
+    [
+     "Impairment of intangible assets (see Notes 1 and 4)",
+     "33",
+     "",
+     "",
+     "927",
+     "",
+     "",
+     "3,166",
+     ""
+    ],
+    [
+     "Operating Profit",
+     "12,887",
+     "",
+     "",
+     "11,986",
+     "",
+     "",
+     "11,512",
+     ""
+    ],
+    [
+     "Other pension and retiree medical benefits (expense)/income",
+     "(22)",
+     "",
+     "",
+     "250",
+     "",
+     "",
+     "132",
+     ""
+    ],
+    [
+     "Net interest expense and other",
+     "(919)",
+     "",
+     "",
+     "(819)",
+     "",
+     "",
+     "(939)",
+     ""
+    ],
+    [
+     "Income before income taxes",
+     "11,946",
+     "",
+     "",
+     "11,417",
+     "",
+     "",
+     "10,705",
+     ""
+    ],
+    [
+     "Provision for income taxes",
+     "2,320",
+     "",
+     "",
+     "2,262",
+     "",
+     "",
+     "1,727",
+     ""
+    ],
+    [
+     "Net income",
+     "9,626",
+     "",
+     "",
+     "9,155",
+     "",
+     "",
+     "8,978",
+     ""
+    ],
+    [
+     "Less: Net income attributable to noncontrolling interests",
+     "48",
+     "",
+     "",
+     "81",
+     "",
+     "",
+     "68",
+     ""
+    ],
+    [
+     "Net Income Attributable to PepsiCo",
+     "$",
+     "9,578",
+     "",
+     "",
+     "$",
+     "9,074",
+     "",
+     "",
+     "$",
+     "8,910",
+     ""
+    ],
+    [
+     "Net Income Attributable to PepsiCo per Common Share",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Basic",
+     "$",
+     "6.97",
+     "",
+     "",
+     "$",
+     "6.59",
+     "",
+     "",
+     "$",
+     "6.45",
+     ""
+    ],
+    [
+     "Diluted",
+     "$",
+     "6.95",
+     "",
+     "",
+     "$",
+     "6.56",
+     "",
+     "",
+     "$",
+     "6.42",
+     ""
+    ],
+    [
+     "Weighted-average common shares outstanding",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Basic",
+     "1,373",
+     "",
+     "",
+     "1,376",
+     "",
+     "",
+     "1,380",
+     ""
+    ],
+    [
+     "Diluted",
+     "1,378",
+     "",
+     "",
+     "1,383",
+     "",
+     "",
+     "1,387",
+     ""
+    ]
+   ],
+   "preamble": " returns and changes in tax or other benefit laws. We regularly evaluate different opportunities to reduce risk and volatility associated with our pension and retiree medical plans. See Note 7 to our consolidated financial statements for our past and expected contributions and estimated future benefit payments. 60 60 60 Table of Table of Contents Contents Consolidated Statement of Income Consolidated Statement of Income Consolidated Statement of Income PepsiCo, Inc. and Subsidiaries PepsiCo, Inc. and Subsidiaries PepsiCo, Inc. and Subsidiaries Fiscal years ended December 28, 2024, December 30, 2023 and December 31, 2022 Fiscal years ended December 28, 2024, December 30, 2023 and December 31, 2022 Fiscal years ended December 28, 2024, December 30, 2023 and December 31, 2022 (in millions except per share amounts) (in millions except per share amounts) (in millions except per share amounts)",
+   "statement": "income_statement",
+   "scale": 1000000,
+   "scale_phrase": "in millions"
+  },
+  {
+   "index": 35,
+   "rows": [
+    [
+     "",
+     "2024",
+     "",
+     "2023"
+    ],
+    [
+     "ASSETS",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Current Assets",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Cash and cash equivalents",
+     "$",
+     "8,505",
+     "",
+     "",
+     "$",
+     "9,711",
+     ""
+    ],
+    [
+     "Short-term investments",
+     "761",
+     "",
+     "",
+     "292",
+     ""
+    ],
+    [
+     "Accounts and notes receivable, net",
+     "10,333",
+     "",
+     "",
+     "10,815",
+     ""
+    ],
+    [
+     "Inventories",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Raw materials and packaging",
+     "2,440",
+     "",
+     "",
+     "2,388",
+     ""
+    ],
+    [
+     "Work-in-process",
+     "104",
+     "",
+     "",
+     "104",
+     ""
+    ],
+    [
+     "Finished goods",
+     "2,762",
+     "",
+     "",
+     "2,842",
+     ""
+    ],
+    [
+     "",
+     "5,306",
+     "",
+     "",
+     "5,334",
+     ""
+    ],
+    [
+     "Prepaid expenses and other current assets",
+     "921",
+     "",
+     "",
+     "798",
+     ""
+    ],
+    [
+     "Total Current Assets",
+     "25,826",
+     "",
+     "",
+     "26,950",
+     ""
+    ],
+    [
+     "Property, Plant and Equipment, net",
+     "28,008",
+     "",
+     "",
+     "27,039",
+     ""
+    ],
+    [
+     "Amortizable Intangible Assets, net",
+     "1,102",
+     "",
+     "",
+     "1,199",
+     ""
+    ],
+    [
+     "Goodwill",
+     "17,534",
+     "",
+     "",
+     "17,728",
+     ""
+    ],
+    [
+     "Other Indefinite-Lived Intangible Assets",
+     "13,699",
+     "",
+     "",
+     "13,730",
+     ""
+    ],
+    [
+     "Investments in Noncontrolled Affiliates",
+     "1,985",
+     "",
+     "",
+     "2,714",
+     ""
+    ],
+    [
+     "Deferred Income Taxes",
+     "4,362",
+     "",
+     "",
+     "4,474",
+     ""
+    ],
+    [
+     "Other Assets",
+     "6,951",
+     "",
+     "",
+     "6,661",
+     ""
+    ],
+    [
+     "Total Assets",
+     "$",
+     "99,467",
+     "",
+     "",
+     "$",
+     "100,495",
+     ""
+    ],
+    [
+     "LIABILITIES AND EQUITY",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Current Liabilities",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Short-term debt obligations",
+     "$",
+     "7,082",
+     "",
+     "",
+     "$",
+     "6,510",
+     ""
+    ],
+    [
+     "Accounts payable and other current liabilities",
+     "24,454",
+     "",
+     "",
+     "25,137",
+     ""
+    ],
+    [
+     "Total Current Liabilities",
+     "31,536",
+     "",
+     "",
+     "31,647",
+     ""
+    ],
+    [
+     "Long-Term Debt Obligations",
+     "37,224",
+     "",
+     "",
+     "37,595",
+     ""
+    ],
+    [
+     "Deferred Income Taxes",
+     "3,484",
+     "",
+     "",
+     "3,895",
+     ""
+    ],
+    [
+     "Other Liabilities",
+     "9,052",
+     "",
+     "",
+     "8,721",
+     ""
+    ],
+    [
+     "Total Liabilities",
+     "81,296",
+     "",
+     "",
+     "81,858",
+     ""
+    ],
+    [
+     "Commitments and contingencies",
+     "",
+     "",
+     ""
+    ],
+    [
+     "PepsiCo Common Shareholders' Equity",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Common stock, par value 1 2 / 3 \u00a2 per share (authorized 3,600 shares; issued, net of repurchased common stock at par value: 1,372 and 1,374 shares, respectively)",
+     "23",
+     "",
+     "",
+     "23",
+     ""
+    ],
+    [
+     "Capital in excess of par value",
+     "4,385",
+     "",
+     "",
+     "4,261",
+     ""
+    ],
+    [
+     "Retained earnings",
+     "72,266",
+     "",
+     "",
+     "70,035",
+     ""
+    ],
+    [
+     "Accumulated other comprehensive loss",
+     "(17,612)",
+     "",
+     "",
+     "(15,534)",
+     ""
+    ],
+    [
+     "Repurchased common stock, in excess of par value 495 and 493 shares, respectively)",
+     "(41,021)",
+     "",
+     "",
+     "(40,282)",
+     ""
+    ],
+    [
+     "Total PepsiCo Common Shareholders' Equity",
+     "18,041",
+     "",
+     "",
+     "18,503",
+     ""
+    ],
+    [
+     "Noncontrolling interests",
+     "130",
+     "",
+     "",
+     "134",
+     ""
+    ],
+    [
+     "Total Equity",
+     "18,171",
+     "",
+     "",
+     "18,637",
+     ""
+    ],
+    [
+     "Total Liabilities and Equity",
+     "$",
+     "99,467",
+     "",
+     "",
+     "$",
+     "100,495",
+     ""
+    ]
+   ],
+   "preamble": " 5,707 Cash and Cash Equivalents and Restricted Cash, End of Year Cash and Cash Equivalents and Restricted Cash, End of Year Cash and Cash Equivalents and Restricted Cash, End of Year $ $ $ 8,553 8,553 $ $ $ 9,761 9,761 9,761 $ $ $ 5,100 5,100 5,100 See accompanying notes to the consolidated financial statements. See accompanying notes to the consolidated financial statements. See accompanying notes to the consolidated financial statements. 64 64 64 Table of Table of Contents Contents Consolidated Balance Sheet Consolidated Balance Sheet Consolidated Balance Sheet PepsiCo, Inc. and Subsidiaries PepsiCo, Inc. and Subsidiaries PepsiCo, Inc. and Subsidiaries December 28, 2024 and December 30, 2023 December 28, 2024 and December 30, 2023 December 28, 2024 and December 30, 2023 (in millions except per share amounts) (in millions except per share amounts) (in millions except per share amounts)",
+   "statement": "balance_sheet",
+   "scale": 1000000,
+   "scale_phrase": "in millions"
+  },
+  {
+   "index": 31,
+   "rows": [
+    [
+     "",
+     "2024",
+     "",
+     "2023",
+     "",
+     "2022"
+    ],
+    [
+     "Operating Activities",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Net income",
+     "$",
+     "9,626",
+     "",
+     "",
+     "$",
+     "9,155",
+     "",
+     "",
+     "$",
+     "8,978",
+     ""
+    ],
+    [
+     "Depreciation and amortization",
+     "3,160",
+     "",
+     "",
+     "2,948",
+     "",
+     "",
+     "2,763",
+     ""
+    ],
+    [
+     "Gain associated with the Juice Transaction",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "(3,321)",
+     ""
+    ],
+    [
+     "Impairment and other charges",
+     "714",
+     "",
+     "",
+     "1,230",
+     "",
+     "",
+     "3,618",
+     ""
+    ],
+    [
+     "Indirect tax impact",
+     "218",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Product recall-related impact",
+     "187",
+     "",
+     "",
+     "136",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Cash payments for product recall-related impact",
+     "(148)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Operating lease right-of-use asset amortization",
+     "655",
+     "",
+     "",
+     "570",
+     "",
+     "",
+     "517",
+     ""
+    ],
+    [
+     "Share-based compensation expense",
+     "362",
+     "",
+     "",
+     "380",
+     "",
+     "",
+     "343",
+     ""
+    ],
+    [
+     "Restructuring and impairment charges",
+     "727",
+     "",
+     "",
+     "445",
+     "",
+     "",
+     "411",
+     ""
+    ],
+    [
+     "Cash payments for restructuring charges",
+     "(436)",
+     "",
+     "",
+     "(434)",
+     "",
+     "",
+     "(224)",
+     ""
+    ],
+    [
+     "Pension and retiree medical plan expense",
+     "414",
+     "",
+     "",
+     "150",
+     "",
+     "",
+     "419",
+     ""
+    ],
+    [
+     "Pension and retiree medical plan contributions",
+     "(348)",
+     "",
+     "",
+     "(410)",
+     "",
+     "",
+     "(384)",
+     ""
+    ],
+    [
+     "Deferred income taxes and other tax charges and credits",
+     "(42)",
+     "",
+     "",
+     "(271)",
+     "",
+     "",
+     "(873)",
+     ""
+    ],
+    [
+     "Tax expense related to the TCJ Act",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "86",
+     ""
+    ],
+    [
+     "Tax payments related to the TCJ Act",
+     "(579)",
+     "",
+     "",
+     "(309)",
+     "",
+     "",
+     "(309)",
+     ""
+    ],
+    [
+     "Change in assets and liabilities:",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Accounts and notes receivable",
+     "(138)",
+     "",
+     "",
+     "(793)",
+     "",
+     "",
+     "(1,763)",
+     ""
+    ],
+    [
+     "Inventories",
+     "(314)",
+     "",
+     "",
+     "(261)",
+     "",
+     "",
+     "(1,142)",
+     ""
+    ],
+    [
+     "Prepaid expenses and other current assets",
+     "40",
+     "",
+     "",
+     "(13)",
+     "",
+     "",
+     "118",
+     ""
+    ],
+    [
+     "Accounts payable and other current liabilities",
+     "(1,161)",
+     "",
+     "",
+     "420",
+     "",
+     "",
+     "1,842",
+     ""
+    ],
+    [
+     "Income taxes payable",
+     "(123)",
+     "",
+     "",
+     "310",
+     "",
+     "",
+     "57",
+     ""
+    ],
+    [
+     "Other, net",
+     "(307)",
+     "",
+     "",
+     "189",
+     "",
+     "",
+     "(325)",
+     ""
+    ],
+    [
+     "Net Cash Provided by Operating Activities",
+     "12,507",
+     "",
+     "",
+     "13,442",
+     "",
+     "",
+     "10,811",
+     ""
+    ],
+    [
+     "Investing Activities",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Capital spending",
+     "(5,318)",
+     "",
+     "",
+     "(5,518)",
+     "",
+     "",
+     "(5,207)",
+     ""
+    ],
+    [
+     "Sales of property, plant and equipment",
+     "342",
+     "",
+     "",
+     "198",
+     "",
+     "",
+     "251",
+     ""
+    ],
+    [
+     "Acquisitions, net of cash acquired, investments in noncontrolled affiliates and purchases of intangible and other assets",
+     "(256)",
+     "",
+     "",
+     "(314)",
+     "",
+     "",
+     "(873)",
+     ""
+    ],
+    [
+     "Proceeds associated with the Juice Transaction",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "3,456",
+     ""
+    ],
+    [
+     "Other divestitures, sales of investments in noncontrolled affiliates and other assets",
+     "166",
+     "",
+     "",
+     "75",
+     "",
+     "",
+     "49",
+     ""
+    ],
+    [
+     "Short-term investments, by original maturity:",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "More than three months - purchases",
+     "(425)",
+     "",
+     "",
+     "(555)",
+     "",
+     "",
+     "(291)",
+     ""
+    ],
+    [
+     "More than three months - maturities",
+     "",
+     "",
+     "",
+     "556",
+     "",
+     "",
+     "150",
+     ""
+    ],
+    [
+     "More than three months - sales",
+     "",
+     "",
+     "",
+     "12",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Three months or less, net",
+     "5",
+     "",
+     "",
+     "3",
+     "",
+     "",
+     "24",
+     ""
+    ],
+    [
+     "Other investing, net",
+     "14",
+     "",
+     "",
+     "48",
+     "",
+     "",
+     "11",
+     ""
+    ],
+    [
+     "Net Cash Used for Investing Activities",
+     "(5,472)",
+     "",
+     "",
+     "(5,495)",
+     "",
+     "",
+     "(2,430)",
+     ""
+    ]
+   ],
+   "preamble": " Attributable to PepsiCo Comprehensive Income Attributable to PepsiCo Comprehensive Income Attributable to PepsiCo $ $ $ 7,500 7,500 $ $ $ 8,842 8,842 8,842 $ $ $ 8,506 8,506 8,506 See accompanying notes to the consolidated financial statements. See accompanying notes to the consolidated financial statements. See accompanying notes to the consolidated financial statements. 62 62 62 Table of Table of Contents Contents Consolidated Statement of Cash Flows Consolidated Statement of Cash Flows Consolidated Statement of Cash Flows PepsiCo, Inc. and Subsidiaries PepsiCo, Inc. and Subsidiaries PepsiCo, Inc. and Subsidiaries Fiscal years ended December 28, 2024, December 30, 2023 and December 31, 2022 Fiscal years ended December 28, 2024, December 30, 2023 and December 31, 2022 Fiscal years ended December 28, 2024, December 30, 2023 and December 31, 2022 (in millions) (in millions) (in millions)",
+   "statement": "cash_flow",
+   "scale": 1000000,
+   "scale_phrase": "in millions"
+  }
+ ],
+ "sample_meta": {
+  "company": "PepsiCo, Inc.",
+  "ticker": "PEP",
+  "report_date": "2024-12-28",
+  "accession": "0000077476-25-000007",
+  "doc_url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm"
+ }
+}

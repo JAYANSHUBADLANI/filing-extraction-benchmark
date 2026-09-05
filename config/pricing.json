@@ -1,0 +1,12 @@
+{
+  "note": "Rates used to turn token counts into money. The code returns no cost at all while a rate is null, so a cost figure can never reach a result table without a rate behind it.",
+  "currency": "USD",
+  "rate_read_on": "2026-09-05",
+  "rate_source": "Google Vertex AI list price for the google ids, which is a separate rate card from Google AI Studio.",
+  "models": {
+    "google/gemini-2.5-flash-lite": {
+      "usd_per_million_input": 0.1,
+      "usd_per_million_output": 0.4
+    }
+  }
+}

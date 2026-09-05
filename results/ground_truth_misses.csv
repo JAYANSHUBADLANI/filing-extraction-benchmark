@@ -1,0 +1,72 @@
+doc_id,company,report_date,field,reason
+0000012927_0000012927-20-000014,The Boeing Company,2019-12-31,total_liabilities,no_fact_in_filing
+0000021344_0000021344-20-000006,The Coca-Cola Company,2019-12-31,total_liabilities,no_concept_present
+0000021344_0000021344-21-000008,The Coca-Cola Company,2020-12-31,total_liabilities,no_concept_present
+0000021344_0000021344-22-000009,The Coca-Cola Company,2021-12-31,total_liabilities,no_concept_present
+0000021344_0000021344-23-000011,The Coca-Cola Company,2022-12-31,total_liabilities,no_concept_present
+0000021344_0000021344-24-000009,The Coca-Cola Company,2023-12-31,total_liabilities,no_concept_present
+0000021344_0000021344-25-000011,The Coca-Cola Company,2024-12-31,total_liabilities,no_concept_present
+0000050863_0000050863-20-000011,Intel Corporation,2019-12-28,total_liabilities,no_concept_present
+0000050863_0000050863-21-000010,Intel Corporation,2020-12-26,total_liabilities,no_concept_present
+0000050863_0000050863-22-000007,Intel Corporation,2021-12-25,total_liabilities,no_concept_present
+0000050863_0000050863-23-000006,Intel Corporation,2022-12-31,total_liabilities,no_concept_present
+0000050863_0000050863-24-000010,Intel Corporation,2023-12-30,total_liabilities,no_concept_present
+0000050863_0000050863-25-000009,Intel Corporation,2024-12-28,total_liabilities,no_concept_present
+0000066740_0001558370-20-000581,3M Company,2019-12-31,cash_and_equivalents,no_fact_in_filing
+0000066740_0001558370-21-000737,3M Company,2020-12-31,cash_and_equivalents,no_fact_in_filing
+0000066740_0000066740-22-000010,3M Company,2021-12-31,cash_and_equivalents,no_fact_in_filing
+0000066740_0000066740-23-000014,3M Company,2022-12-31,cash_and_equivalents,no_fact_in_filing
+0000078003_0000078003-20-000014,Pfizer Inc.,2019-12-31,operating_income,no_concept_present
+0000078003_0000078003-21-000038,Pfizer Inc.,2020-12-31,operating_income,no_concept_present
+0000078003_0000078003-22-000027,Pfizer Inc.,2021-12-31,operating_income,no_concept_present
+0000078003_0000078003-23-000024,Pfizer Inc.,2022-12-31,operating_income,no_concept_present
+0000078003_0000078003-24-000039,Pfizer Inc.,2023-12-31,operating_income,no_concept_present
+0000078003_0000078003-25-000054,Pfizer Inc.,2024-12-31,operating_income,no_concept_present
+0000104169_0000104169-19-000016,Walmart Inc.,2019-01-31,total_liabilities,no_concept_present
+0000104169_0000104169-20-000011,Walmart Inc.,2020-01-31,total_liabilities,no_concept_present
+0000104169_0000104169-21-000033,Walmart Inc.,2021-01-31,total_liabilities,no_concept_present
+0000104169_0000104169-22-000012,Walmart Inc.,2022-01-31,total_liabilities,no_concept_present
+0000104169_0000104169-23-000020,Walmart Inc.,2023-01-31,total_liabilities,no_concept_present
+0000104169_0000104169-24-000056,Walmart Inc.,2024-01-31,total_liabilities,no_concept_present
+0000200406_0000200406-20-000010,Johnson & Johnson,2019-12-29,operating_income,no_fact_in_filing
+0000200406_0000200406-21-000008,Johnson & Johnson,2021-01-03,operating_income,no_fact_in_filing
+0000200406_0000200406-22-000022,Johnson & Johnson,2022-01-02,operating_income,no_fact_in_filing
+0000200406_0000200406-23-000016,Johnson & Johnson,2023-01-01,operating_income,no_fact_in_filing
+0000200406_0000200406-24-000013,Johnson & Johnson,2023-12-31,operating_income,no_fact_in_filing
+0000200406_0000200406-25-000038,Johnson & Johnson,2024-12-29,operating_income,no_fact_in_filing
+0000310158_0000310158-20-000005,"Merck & Co., Inc.",2019-12-31,operating_income,no_concept_present
+0000310158_0000310158-20-000005,"Merck & Co., Inc.",2019-12-31,total_liabilities,no_concept_present
+0000310158_0000310158-21-000004,"Merck & Co., Inc.",2020-12-31,operating_income,no_concept_present
+0000310158_0000310158-21-000004,"Merck & Co., Inc.",2020-12-31,total_liabilities,no_concept_present
+0000310158_0000310158-22-000003,"Merck & Co., Inc.",2021-12-31,operating_income,no_concept_present
+0000310158_0000310158-22-000003,"Merck & Co., Inc.",2021-12-31,total_liabilities,no_concept_present
+0000310158_0001628280-23-005061,"Merck & Co., Inc.",2022-12-31,operating_income,no_concept_present
+0000310158_0001628280-23-005061,"Merck & Co., Inc.",2022-12-31,total_liabilities,no_concept_present
+0000310158_0001628280-24-006850,"Merck & Co., Inc.",2023-12-31,operating_income,no_concept_present
+0000310158_0001628280-24-006850,"Merck & Co., Inc.",2023-12-31,total_liabilities,no_concept_present
+0000310158_0001628280-25-007732,"Merck & Co., Inc.",2024-12-31,operating_income,no_concept_present
+0000310158_0001628280-25-007732,"Merck & Co., Inc.",2024-12-31,total_liabilities,no_concept_present
+0000732712_0000732712-20-000014,Verizon Communications Inc.,2019-12-31,total_liabilities,no_concept_present
+0000732712_0000732712-21-000012,Verizon Communications Inc.,2020-12-31,total_liabilities,no_concept_present
+0000732712_0000732712-22-000008,Verizon Communications Inc.,2021-12-31,total_liabilities,no_concept_present
+0000732712_0000732712-23-000012,Verizon Communications Inc.,2022-12-31,total_liabilities,no_concept_present
+0000732712_0000732712-24-000010,Verizon Communications Inc.,2023-12-31,total_liabilities,no_concept_present
+0000732712_0000732712-25-000006,Verizon Communications Inc.,2024-12-31,total_liabilities,no_concept_present
+0001018724_0001018724-20-000004,"Amazon.com, Inc.",2019-12-31,total_liabilities,no_concept_present
+0001018724_0001018724-21-000004,"Amazon.com, Inc.",2020-12-31,total_liabilities,no_concept_present
+0001018724_0001018724-22-000005,"Amazon.com, Inc.",2021-12-31,total_liabilities,no_concept_present
+0001018724_0001018724-23-000004,"Amazon.com, Inc.",2022-12-31,total_liabilities,no_concept_present
+0001018724_0001018724-24-000008,"Amazon.com, Inc.",2023-12-31,total_liabilities,no_concept_present
+0001018724_0001018724-25-000004,"Amazon.com, Inc.",2024-12-31,total_liabilities,no_concept_present
+0001341439_0001564590-19-023119,Oracle Corporation,2019-05-31,total_liabilities,no_concept_present
+0001341439_0001564590-20-030125,Oracle Corporation,2020-05-31,total_liabilities,no_concept_present
+0001341439_0001564590-21-033616,Oracle Corporation,2021-05-31,total_liabilities,no_concept_present
+0001341439_0001564590-22-023675,Oracle Corporation,2022-05-31,total_liabilities,no_concept_present
+0001341439_0000950170-23-028914,Oracle Corporation,2023-05-31,total_liabilities,no_concept_present
+0001341439_0000950170-24-075605,Oracle Corporation,2024-05-31,total_liabilities,no_concept_present
+0001744489_0001744489-19-000225,The Walt Disney Company,2019-09-28,total_liabilities,no_concept_present
+0001744489_0001744489-20-000197,The Walt Disney Company,2020-10-03,total_liabilities,no_concept_present
+0001744489_0001744489-21-000220,The Walt Disney Company,2021-10-02,total_liabilities,no_concept_present
+0001744489_0001744489-22-000213,The Walt Disney Company,2022-10-01,total_liabilities,no_concept_present
+0001744489_0001744489-23-000216,The Walt Disney Company,2023-09-30,total_liabilities,no_concept_present
+0001744489_0001744489-24-000276,The Walt Disney Company,2024-09-28,total_liabilities,no_concept_present
