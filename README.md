@@ -1,5 +1,7 @@
 # Extracting financial facts from filings: rules against a language model
 
+[![tests](https://github.com/JAYANSHUBADLANI/filing-extraction-benchmark/actions/workflows/tests.yml/badge.svg)](https://github.com/JAYANSHUBADLANI/filing-extraction-benchmark/actions/workflows/tests.yml)
+
 I built this to answer a question with measurements instead of an opinion:
 should a document extraction pipeline replace its regular expressions with a
 language model?
