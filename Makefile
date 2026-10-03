@@ -26,6 +26,3 @@ test:
 
 clean:
 	rm -f results/*.csv results/*.json results/figures/*.png
-
-package:
-	./scripts/package.sh
